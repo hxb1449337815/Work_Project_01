@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+">
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="suffix" value=".jsp"></property>
+        <property name="prefix" value="/"></property>
+    </bean>
+
+    <mvc:annotation-driven></mvc:annotation-driven>
+
+    <context:component-scan base-package="com.fly"></context:component-scan>
+
+<!--
+     线程执行器配置，用于任务注册
+    <bean id="executor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <property name="corePoolSize" value="10" />
+        <property name="maxPoolSize" value="100" />
+        <property name="queueCapacity" value="500" />
+    </bean>
+    &lt;!&ndash; 业务对象 &ndash;&gt;
+    &lt;!&ndash; ExpireJobTask是类名，doBiz是执行的实际方法 &ndash;&gt;
+    &lt;!&ndash;<bean id="bizObject" class="com.fly.service.impl.FAdminServiceImpl" />&ndash;&gt;
+    &lt;!&ndash; 调度业务 &ndash;&gt;
+    <bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="FAdminServiceImpl" />
+        <property name="targetMethod" value="test" />
+    </bean>
+
+    &lt;!&ndash; 定时时间，此处为30分钟执行一次&ndash;&gt;
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="jobDetail" />
+        <property name="cronExpression" value="0/10 * * * * ?" />
+    </bean>
+    <bean id="taskTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+        <property name="jobDetail" ref="jobDetail" />
+        <property name="startDelay" value="10000" />
+        <property name="repeatInterval" value="60000" />
+    </bean>
+
+    &lt;!&ndash; 设置调度 &ndash;&gt;
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="cronTrigger" />
+            </list>
+        </property>
+        <property name="taskExecutor" ref="executor" />
+    </bean>-->
+
+
+
+
+</beans>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kkk:war">
+    <output-path>$PROJECT_DIR$/kkk/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>kkk</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="kkk.war">
+      <element id="artifact" artifact-name="kkk:war exploded" />
+    </root>
+  </artifact>
+</component>

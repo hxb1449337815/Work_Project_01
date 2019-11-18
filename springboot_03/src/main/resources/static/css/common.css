@@ -1,0 +1,489 @@
+.mui-slider-indicator .mui-indicator{
+	margin: 1px 2px;
+}
+.myGroup{
+	margin: 0;
+	list-style: none;
+	background-color: #fff;
+	text-align: center;
+	padding: 15px 0 0;
+	margin-bottom: 10px;
+}
+.myGroup li{
+	margin-bottom: 12px;
+}
+.myGroup .icon{
+	display: block;
+    margin: 0 auto;
+    width: 57px;
+    height: 45px;
+    background-image: url(../images/type-icon-sprites.png);
+    background-repeat: no-repeat;
+    background-size: 230px 91px;
+}
+.myGroup .icon-clean {
+    background-position: -58px 0;
+}
+.myGroup .icon-repair {
+    background-position: 0 0;
+}
+.myGroup .icon-install {
+    background-position: -116px -46px;
+}
+.myGroup .icon-sofa {
+    background-position: -174px 0;
+}
+.myGroup .icon-pipe {
+    background-position: -116px 0;
+}
+.myGroup .icon-unlock {
+	background-position: 0 -46px;
+}
+.myGroup .icon-door {
+	background-position: -172px -46px;
+}
+.myGroup .icon-electric {
+    background-position: -58px -46px;
+}
+.myGroup .title{
+	font-size: 12px;
+    color: #666;
+    margin-top: 2px;
+}
+.content-box {
+    position: relative;
+    background-color: #fff !important;
+    margin-bottom: 10px;
+}
+.find-new-inner {
+    position: relative;
+    padding: 9px 26px 9px 55px;
+}
+.find-new-inner .icon{
+    display: inline-block;
+    background-image: url(../images/icon-normal-sprites.png);
+    background-repeat: no-repeat;
+    background-size: 36px 30px;
+}
+.find-new-inner .tit {
+    width: 35px;
+    height: 17px;
+    background-position: 0 -13px;
+    position: absolute;
+    top: 11px;
+    left: 8px;
+}
+.find-new-inner .arrow-find {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 3px;
+    right: 0;
+}
+.find-new-inner .icon-find-inner {
+    display: inline-block;
+    width: 7px;
+    height: 12px;
+    background-position: 0 0;
+    vertical-align: top;
+    margin: 9px 0 0 12px;
+}
+
+.swiper-slide img{
+	width: 100%;
+	display: block;
+}
+#swiper-container2{
+	height: 22px;
+}
+#swiper-container2 a{
+	color: #666;
+	font-size: 12px;
+}
+.title-main {
+    position: relative;
+    height: 41px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.title-main:before {
+    content: "优惠活动";
+    border-left: 5px solid #ff9801;
+    padding-left: 6px;
+    width: 100px;
+    height: 21px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    line-height: 23px;
+    z-index: 2;
+}
+.title-main:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 11px;
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    pointer-events: none;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    width: 200%;
+    height: 200%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 0;
+}
+.product-list {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 11px;
+    background: #fff;
+}
+.product-list-inner {
+    width: 9999px;
+    background-color: #fff;
+}
+.product-list-inner .li-inner {
+    float: left;
+    width: 40%;
+    padding: 0 11px 9px 0;
+    background-color: #fff;
+}
+ul,li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+img {
+    display: block;
+    width: 100%;
+    border: 0;
+}
+.product-list-inner .p-detail {
+    overflow: hidden;
+    height: 52px;
+}
+.product-list-inner .p-detail .name {
+    font-size: 16px;
+    color: #444;
+    display: -webkit-box;
+    margin: 9px 0 4px;
+}
+.product-list-inner .p-detail .price-inner {
+    font-size: 14px;
+    color: #ff9801;
+}
+.product-list-inner .p-detail span {
+    float: left;
+    vertical-align: top;
+}
+.product-list-inner .p-detail span {
+    float: left;
+    vertical-align: top;
+}
+.product-list-inner .p-detail .price-original {
+    font-size: 12px;
+    color: #999;
+    display: inline-block;
+    text-decoration: line-through;
+    vertical-align: top;
+    padding: 1px 0 0 5px;
+}
+.discount-inner .product-list-inner .p-detail .btn-order {
+    display: none;
+}
+.content-box.box-hot .mui-table-view{
+	margin-top: -15px;
+}
+.content-box .mui-table-view:before{
+	content: none;
+}
+.content-box .mui-table-view .mui-media-object{
+	max-width: 108px;
+	height: 80px;
+}
+.mui-media-body .price-inner{
+	color: #ff9801;
+}
+.mui-media-body .price-inner .rmb-icon{
+	font-size: 15px;
+}
+.mui-media-body .price-inner .price-now{
+	font-size: 17px;
+}
+.content-box .mui-media-body{
+	padding-top: 3px;
+}
+.content-box .mui-media-body .mui-ellipsis{
+	font-size: 13px;
+    color: #666;
+    margin: 2px 0 5px;
+}
+.detail-inner {
+    position: relative;
+    padding: 0 15px 0 125px;
+    height: 200px;
+}
+.detail-inner .master-img {
+    position: absolute;
+    top: -8px;
+    left: 11px;
+    width: 110px;
+    height: 190px;
+}
+.detail-inner .con {
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+    margin-bottom: 13px;
+    padding-top: 4px;
+}
+.myBtn{
+	background-color: #ff9801;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.box-hot .title-main:before {
+    content: "热销推荐";
+}
+.box-join .title-main:before {
+    content: "工程师招聘";
+}
+.content-box .more {
+    position: absolute;
+    top: 12px;
+    right: 11px;
+}
+.content-box .more a {
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    color: #fff;
+    text-align: right;
+}
+.content-box .more a:before {
+    content: "更多";
+    color: #ff9801;
+    font-size: 13px;
+    display: block;
+}
+.top-nav {
+    overflow: hidden;
+    height: 54px;
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+.nob{
+	border-bottom: none;
+}
+.top-nav .logo-box {
+    float: left;
+    padding-left: 11px;
+    font-size: 12px;
+    color: #666;
+    line-height: 56px;
+    display: inline-block;
+}
+.top-nav .logo-box .logo {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    vertical-align: top;
+    margin: 9px 10px 0 0;
+    border: 1px solid #ddd;
+    background-position: 0;
+}
+.top-nav .located-city {
+    width: 100px;
+    height: 54px;
+    line-height: 56px;
+    text-align: right;
+    padding-right: 11px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+    color: #ffc642;
+}
+.top-nav .located-city:after, .top-nav .logo-box .logo {
+    display: inline-block;
+    background-image: url(../images/logo_sprites.png);
+    background-size: 60px 40px;
+}
+.top-nav .located-city:after {
+    content: "";
+    width: 16px;
+    height: 9px;
+    background-position: -41px -10px;
+}
+.mui-grid-view.mui-grid-9 .mui-media-body{
+	padding-top: 0px;
+	font-size: 12px !important;
+	margin-top: 2px !important;
+}
+.content-box.mui-grid-9 .mui-icon{
+	width: 80px;
+	height: 48px;
+}
+.mui-icon-lock1{
+	background-image: url(../images/index_service1.png);
+	background-size: cover;
+}
+.mui-icon-lock2{
+	background-image: url(../images/index_service2.png);
+	background-size: cover;
+}
+.mui-icon-lock3{
+	background-image: url(../images/index_service3.png);
+	background-size: cover;
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+	padding: 6px 10px;
+}
+.mui-grid-view.mui-grid-9:after{
+	content: none;
+}
+
+.service-con {
+    position: relative;
+    padding: 0 0 0 12px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.service-con .title {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    padding-left: 12px;
+    height: 39px;
+    line-height: 39px;
+    margin: 0;
+}
+.service-con .title:before {
+    content: "";
+    width: 4px;
+    height: 17px;
+    background-color: #ff9801;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.service-con .title:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border: 0 solid #e0e0e0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    pointer-events: none;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    width: 200%;
+    height: 200%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 0;
+}
+.service-con .title:after {
+    border-width: 0 0 1px;
+}
+.service-description2 {
+    padding: 0 14px 20px;
+    overflow: hidden;
+}
+.service-description2 p {
+    position: relative;
+    padding: 28px 0 0 50px;
+    line-height: 17px;
+    font-size: 12px;
+    width: 50%;
+    float: left;
+    height: 55px;
+    margin: 0;
+}
+.service-description2 .icon-service {
+    display: inline-block;
+    background-image: url(../images/ks_icon_sprites.png);
+    background-size: 170px 85px;
+    background-repeat: no-repeat;
+}
+.service-description2 .icon-service {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 17px;
+    text-align: center;
+}
+.service-description2 .icon-ser2 {
+    background-position: -41px -42px;
+}
+.service-description2 .icon-ser1 {
+    background-position: -1px -42px;
+}
+.service-description2 .icon-ser4 {
+    background-position: -123px -42px;
+}
+.service-description2 .icon-ser3 {
+    background-position: -82px -42px;
+}
+.price-table-con {
+    padding: 15px 11px 1px 12px;
+}
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+.price-table th, .price-table td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #e1e1e1;
+    height: 40px;
+    font-size: 14px;
+}
+.price-table th {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #6b6b6b;
+    background-color: #efefef;
+    font-weight: normal;
+}
+.service-introduce-wrap .price-table td {
+    padding: 8px;
+}
+.service-flow-box .mui-media-body{
+	font-size: 12px !important;
+	color: #666 !important;
+}
+.service-description{
+	padding: 10px 11px 10px 0;
+    line-height: 19px;
+}
+.service-description p {
+    position: relative;
+    padding-left: 16px;
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+}
+.service-description .num {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

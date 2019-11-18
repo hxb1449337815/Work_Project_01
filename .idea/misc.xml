@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/kkk" />
+    <file type="web" url="file://$PROJECT_DIR$/MyBatis_01" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_01" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_03" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC_04" />
+    <file type="web" url="file://$PROJECT_DIR$/SSM_01" />
+    <file type="web" url="file://$PROJECT_DIR$/SSM_01_again" />
+    <file type="web" url="file://$PROJECT_DIR$/SSM_Fly" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm_FX" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm_test" />
+    <file type="web" url="file://$PROJECT_DIR$/test_01" />
+    <file type="web" url="file://$PROJECT_DIR$/test_02" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/MyBatis_01/pom.xml" />
+        <option value="$PROJECT_DIR$/test_01/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_01/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_03/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC_04/pom.xml" />
+        <option value="$PROJECT_DIR$/SSH_01/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_01/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_01_again/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM_Fly/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_01/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_02/pom.xml" />
+        <option value="$PROJECT_DIR$/kkk/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_FX/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_03/pom.xml" />
+        <option value="$PROJECT_DIR$/test_02/pom.xml" />
+        <option value="$PROJECT_DIR$/weixin/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_test/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

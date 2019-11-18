@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="testTables" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+        <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/fly"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+        <!-- <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
+            connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:orcl"
+            userId="scott"
+            password="wcy675600920">
+        </jdbcConnection> -->
+
+        <!-- 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true时把JDBC DECIMAL 和
+            NUMERIC 类型解析为java.math.BigDecimal -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <!-- targetProject:生成PO类(实体类)的位置 -->
+        <javaModelGenerator targetPackage="com.fly.model"
+                            targetProject="src/main/java">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+            <!-- 从数据库返回的值被清理前后的空格 -->
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+        <!-- targetProject:mapper映射文件生成的位置 -->
+        <sqlMapGenerator targetPackage="com.fly.model"
+                         targetProject="src/main/java">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+        </sqlMapGenerator>
+        <!-- targetPackage：mapper接口生成的位置 -->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.fly.mapper"
+                             targetProject="src/main/java">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+        </javaClientGenerator>
+
+
+        <!-- 指定数据库表 -->
+        <table tableName="f_admin" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 2 -->
+        <table tableName="f_admin_log" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 3 -->
+        <table tableName="f_admin_role" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 4 -->
+        <table tableName="f_air_route" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 5 -->
+        <table tableName="f_aircompanyt_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 6 -->
+        <table tableName="f_aircraft_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 7 -->
+        <table tableName="f_airline_company" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 8 -->
+        <table tableName="f_airport_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 9 -->
+        <table tableName="f_backup" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 10 -->
+        <table tableName="f_channel_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 11 -->
+        <table tableName="f_checkin_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 12 -->
+        <table tableName="f_collection" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 13 -->
+        <table tableName="f_flight_record" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 14 -->
+        <table tableName="f_flight_report_day" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 15 -->
+        <table tableName="f_flight_report_monthly" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 16-->
+        <table tableName="f_flight_report_quarter" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 17 -->
+        <table tableName="f_flight_report_weekly" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 18 -->
+        <table tableName="f_flight_report_year" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 19 -->
+        <table tableName="f_flight_stream" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 20 -->
+        <table tableName="f_gate_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 21 -->
+        <table tableName="f_menu" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 22 -->
+        <table tableName="f_passenger" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 23 -->
+        <table tableName="f_reason_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 24 -->
+        <table tableName="f_rec_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 25 -->
+        <table tableName="f_runway_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 26 -->
+        <table tableName="f_seat_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 27 -->
+        <table tableName="f_statel_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 28 -->
+        <table tableName="f_statistics_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 29 -->
+        <table tableName="f_task_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 30 -->
+        <table tableName="f_terminal_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+        <!-- 31 -->
+        <table tableName="f_turntable_basic_data" schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+
+        </table>
+
+
+
+
+        <!-- 有些表的字段需要指定java类型
+         <table schema="" tableName="">
+            <columnOverride column="" javaType="" />
+        </table> -->
+    </context>
+</generatorConfiguration>
